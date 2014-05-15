@@ -243,6 +243,10 @@ a:focus {
     background-color: #828a89;
 	margin: 60px 0;
 }
+#social{
+	display: inline-block;
+	margin: 0 auto;
+}
 
 @media(min-width:767px) {
     .content-section {
