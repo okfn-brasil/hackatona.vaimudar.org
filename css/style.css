@@ -91,6 +91,11 @@ a.festival:hover{
 .navbar-toggle:active {
     outline: 0;
 }
+.navbar-fixed-top{
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
 
 .intro {
     padding: 70px 0;
