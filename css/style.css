@@ -65,11 +65,12 @@ a:focus {
 }
 
 .navbar-custom .nav li a {
-	font-size: 0.8em;
+	font-size: 13px;
 	font-weight: bold;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+	padding: 15px 25px;
 }
 
 .navbar-custom .nav li a:hover,
@@ -247,7 +248,12 @@ a:focus {
 	display: inline-block;
 	margin: 0 auto;
 }
-
+@media(max-width:979px) {
+	.navbar-custom .nav li a {
+		padding: 15px 15px;
+		font-size: 0.8em;
+	}
+}
 @media(min-width:767px) {
     .content-section {
         padding-top: 60px;
@@ -299,6 +305,9 @@ footer .container{
     ul.banner-social-buttons {
         margin-top: 15px;
     }
+	.navbar-custom .nav li a {
+		padding: 15px 22px;
+	}
 }
 
 @media(max-width:767px) {
