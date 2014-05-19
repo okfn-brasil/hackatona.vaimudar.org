@@ -215,6 +215,11 @@ a.festival:hover{
 	margin-bottom: 30px; 
 }
 
+.question {
+	color: #1ad5c3;
+    font-weight: bold;
+}
+
 .green-section,
 .gray-section *{
 	color: #fff;
